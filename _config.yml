@@ -1,32 +1,40 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
+# Site Settings
+title:               "J. David Maclean"
+tagline:             "Seems like the thing to do."
+url:                 https://jdavidmaclean.com
+paginate:            1000
 baseurl:             ""
+description: "J. David Maclean > A motivated solutions-driven technical thinker with a creative history and an aptitude for tutoring. Passionate about designing systems, managing projects and communicating ideas in the online, education, design, and publishing markets."
 
+# About/contact
+author:
+  name:              "J. David Maclean"
+  #url:               https://twitter.com/mdo
+  email:             j.david.maclean@gmail.com
+  
 # Assets
-#
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
   style:            :compressed
-
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  
+# Permalinks
+permalink:           pretty
 
 # Custom vars
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-# Gems
+# Build settings
+#theme: minima
+markdown: kramdown
+kramdown:
+    auto_ids: false
 gems:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
+exclude:
+  - Gemfile
+  - Gemfile.lock
