@@ -17,6 +17,7 @@ author:
 sass:
   sass_dir:          _sass
   style:            :compressed
+  sourcemap:        true
   
 # Permalinks
 permalink:           pretty
@@ -28,9 +29,12 @@ github:
 
 # Build settings
 #theme: minima
+highlighter: none
 markdown: kramdown
 kramdown:
     auto_ids: false
+    syntax_highlighter_opts:
+        disable : true
 gems:
   - jekyll-feed
   - jekyll-paginate
