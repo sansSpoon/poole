@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sass nesting and the Parent selector
-date: 2016-01-16
+date: 2017-01-16
 tags: [sass, css]
 ---
 
