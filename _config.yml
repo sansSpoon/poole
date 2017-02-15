@@ -26,6 +26,7 @@ permalink:           pretty
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+analytics_id:        UA-92019002-1
 
 # Build settings
 #theme: minima
