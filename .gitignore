@@ -2,6 +2,7 @@
 _gh_pages
 _site
 _drafts
+_data
 .ruby-version
 .sass-cache
 
