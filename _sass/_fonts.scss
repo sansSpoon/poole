@@ -1,0 +1,178 @@
+// Font Calls
+//
+// Body Text.
+
+@font-face {
+	font-family: 'CaeciliaLight';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Caecilia LT Std 45 Light'), local('CaeciliaLTStd-Light'), url('/_lib/font/CaeciliaLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaLightItalic';
+	font-style: italic;
+	font-weight: 300;
+	src: local('Caecilia LT Std 46 Light Italic'), local('CaeciliaLTStd-LightItalic'), url('/_lib/font/CaeciliaLTStd-LightItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaRoman';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Caecilia LT Std 55 Roman'), local('CaeciliaLTStd-Roman'), url('/_lib/font/CaeciliaLTStd-Roman.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaItalic';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Caecilia LT Std 56 Italic'), local('CaeciliaLTStd-Italic'), url('/_lib/font/CaeciliaLTStd-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaBold';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Caecilia LT Std 75 Bold'), local('CaeciliaLTStd-Bold'), url('/_lib/font/CaeciliaLTStd-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaBoldItalic';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Caecilia LT Std 76 Bold Italic'), local('CaeciliaLTStd-BoldItalic'), url('/_lib/font/CaeciliaLTStd-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaHeavy';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Caecilia LT Std 85 Heavy'), local('CaeciliaLTStd-Heavy'), url('/_lib/font/CaeciliaLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'CaeciliaHeavyItalic';
+	font-style: italic;
+	font-weight: 800;
+	src: local('Caecilia LT Std 86 Heavy Italic'), local('CaeciliaLTStd-HeavyItalic'), url('/_lib/font/CaeciliaLTStd-HeavyItalic.woff') format('woff');
+}
+
+
+// Display
+
+@font-face {
+	font-family: 'EurostileExtTwo';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Eurostile LT Std Extended 2'), local('EurostileLTStd-Ex2'), url('/_lib/font/EurostileLTStd-Ex2.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'EurostileExtTwo';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Eurostile LT Std Bold Extended 2'), local('EurostileLTStd-BoldEx2'), url('/_lib/font/EurostileLTStd-BoldEx2.woff') format('woff');
+}
+
+
+// Japanese
+// Mono
+
+@font-face {
+	font-family: 'Mplus1mnThin';
+	font-style: normal;
+	font-weight: 200;
+	src: local('M+ 1mn thin'), local('mplus-1mn-thin'), url('/_lib/font/mplus-1mn-thin.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus1mnLight';
+	font-style: normal;
+	font-weight: 300;
+	src: local('M+ 1mn light'), local('mplus-1mn-light'), url('/_lib/font/mplus-1mn-light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus1mn';
+	font-style: normal;
+	font-weight: 400;
+	src: local('M+ 1mn'), local('mplus-1mn-regular'), url('/_lib/font/mplus-1mn-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus1mnMedium';
+	font-style: normal;
+	font-weight: 500;
+	src: local('M+ 1mn medium'), local('mplus-1mn-medium'), url('/_lib/font/mplus-1mn-medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus1mnBold';
+	font-style: normal;
+	font-weight: 700;
+	src: local('M+ 1mn bold'), local('mplus-1mn-bold'), url('/_lib/font/mplus-1mn-bold.woff') format('woff');
+}
+
+
+
+// Japanese
+// Full Width
+
+@font-face {
+	font-family: 'Mplus2cThin';
+	font-style: normal;
+	font-weight: 200;
+	src: local('M+ 2c thin'), local('mplus-2c-thin'), url('/_lib/font/mplus-2c-thin.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2cLight';
+	font-style: normal;
+	font-weight: 300;
+	src: local('M+ 2c light'), local('mplus-2c-light'), url('/_lib/font/mplus-2c-light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2c';
+	font-style: normal;
+	font-weight: 400;
+	src: local('M+ 2c'), local('mplus-2c-regular'), url('/_lib/font/mplus-2c-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2cMedium';
+	font-style: normal;
+	font-weight: 500;
+	src: local('M+ 2c medium'), local('mplus-2c-medium'), url('/_lib/font/mplus-2c-medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2cBold';
+	font-style: normal;
+	font-weight: 700;
+	src: local('M+ 2c bold'), local('mplus-2c-bold'), url('/_lib/font/mplus-2c-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2cHeavy';
+	font-style: normal;
+	font-weight: 800;
+	src: local('M+ 2c heavy'), local('mplus-2c-heavy'), url('/_lib/font/mplus-2c-heavy.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mplus2cBlack';
+	font-style: normal;
+	font-weight: 900;
+	src: local('M+ 2c black'), local('mplus-2c-black'), url('/_lib/font/mplus-2c-black.woff') format('woff');
+}
+
+
+//Alt Mono
+@font-face {
+	font-family: 'OCRA';
+	font-style: normal;
+	font-weight: normal;
+	src: local('OCR A Std Regular'), local('OCRAStd'), url('/_lib/font/OCRAStd.woff') format('woff');
+}
