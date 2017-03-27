@@ -6,8 +6,6 @@ layout: default
 	<h1 class="post-title">{{ page.title }}</h1>
 	{% if page.tags.size > 0 %}
 		<p>{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %} {% endfor %}</p>
-	{% else %}
-		<p>{{ page.tags }}</p>
 	{% endif %}
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date:"%-d %B %Y" | date_to_string }}</time>
 	{{ content }}
