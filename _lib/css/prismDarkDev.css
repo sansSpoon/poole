@@ -44,25 +44,17 @@ pre[class*="language-"],
 
 /* Code blocks */
 pre[class*="language-"] {
-	position: relative;
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
 	/*border: .3em solid hsl(30, 20%, 40%);*/
 	/*border-radius: .5em;*/
 	box-shadow: 0 .5em .5em -.5em  black inset;
+	-webkit-clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
 }
 
-pre[class*="language-"]:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	border-width: 16px 22px 0  0;
-	border-style: solid;
-	border-color: rgba(37, 32, 27, 1) rgba(66, 57, 49, 1);
-	display: block; width: 0;
-}
+
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
