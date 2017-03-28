@@ -2,10 +2,10 @@
 layout: post
 #title: Example content
 #date: 2016-01-12
-#tags: [svg, affinity designer]
+tags: [ svg, html ]
 ---
 
-I've just updated my site with a spiffy new [Pinned Tab Icon](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html "Apple Developer Documentation"). The code is pretty straigh forward, just add the following into your header element.
+I've just updated my site with a spiffy new [Pinned Tab Icon](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html "Apple Developer Documentation"). The code is pretty straight forward, just add the following into your header element.
 
 ```HTML
 <link rel="mask-icon" href="website_icon.svg" color="red">
