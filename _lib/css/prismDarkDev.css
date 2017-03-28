@@ -12,6 +12,7 @@ pre[class*="language-"] {
 	text-shadow: 0 -.1em .2em black;
 	/*font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;*/
 	font-family: "OCRA", Menlo, Monaco, "Courier New", monospace;
+	font-size: .85rem;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -39,28 +40,43 @@ pre[class*="language-"] {
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
 	/*background: hsl(30, 20%, 25%);*/
-	background: rgba(37, 32, 27, 1);
+	background: rgba(51, 44, 38, 1) url("../chrome/bevel.svg") right bottom no-repeat;
+	background-size: 20px 18px;
 }
 
 /* Code blocks */
 pre[class*="language-"] {
+	position: relative;
 	padding: 1em;
 	margin: .5em 0;
-	overflow: auto;
+	overflow: scroll;
 	/*border: .3em solid hsl(30, 20%, 40%);*/
 	/*border-radius: .5em;*/
 	box-shadow: 0 .5em .5em -.5em  black inset;
-	-webkit-clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
+	/*clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
+	-webkit-clip-path: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);*/
 }
 
+/*pre[class*="language-"]:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-width: 16px 22px 0  0;
+	border-style: solid;
+	border-color: rgba(51, 44, 38, 1) rgba(66, 57, 49, 1);
+	display: block; width: 0;
+}*/
 
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+:not(pre) > code[class*="language-"], :not(pre) > code {
+	font-family: "OCRA", Menlo, Monaco, "Courier New", monospace;
+	font-size: .85rem;
+	background: rgba(51, 44, 38, 1);
 	padding: .15em .2em .05em;
 	border-radius: .3em;
-	border: .13em solid hsl(30, 20%, 40%);
+	/*border: .13em solid hsl(30, 20%, 40%);*/
 	box-shadow: 1px 1px .3em -.1em black inset;
 	white-space: normal;
 }
