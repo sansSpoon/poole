@@ -86,8 +86,17 @@ abbr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: darken($body-color, 10%);
+  
+  background-image: repeating-linear-gradient(
+			45deg,
+			$taupe,
+			$taupe 6px,
+			darken($taupe, 10%) 6px,
+			darken($taupe, 10%) 12px
+		);
+  background-size: 16px 100%;
+  background-repeat: no-repeat;
 
   p:last-child {
     margin-bottom: 0;
