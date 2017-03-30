@@ -13,3 +13,23 @@
 footer {
   margin-bottom: 2rem;
 }
+
+// Masthead
+//
+// Basic logo and home link.
+
+header {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 3rem;
+	
+	a.logo {
+		display: block; width: 407px; height: 67px;
+		background: url(../chrome/jdmLogoTransparent.svg) no-repeat 0 0; background-size: contain;
+		
+		span {
+			display: none;
+		}
+	}
+}
