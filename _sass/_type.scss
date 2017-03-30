@@ -47,8 +47,9 @@ strong {
 }
 
 ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
+	font-family: $body-text;
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 dt {
@@ -84,28 +85,31 @@ abbr {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: darken($body-color, 10%);
-  
-  background-image: repeating-linear-gradient(
-			45deg,
-			$taupe,
-			$taupe 6px,
-			darken($taupe, 10%) 6px,
-			darken($taupe, 10%) 12px
-		);
-  background-size: 16px 100%;
-  background-repeat: no-repeat;
+	//padding: .5rem 1rem;
+	margin: 1rem 0;
+	color: darken($body-color, 10%);
+	background-image: repeating-linear-gradient(
+		45deg,
+		$taupe,
+		$taupe 3px,
+		darken($taupe, 10%) 3px,
+		darken($taupe, 10%) 6px
+	);
+	background-size: 9px 100%;
+	background-repeat: no-repeat;
 
-  p:last-child {
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 30em) {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
-  }
+	p:first-child {
+		margin-top: 0;
+	}
+	
+	p:last-child {
+		margin-bottom: 0;
+	}
+	
+	@media (min-width: 30em) {
+		padding-right: 5rem;
+		padding-left: 1.25rem;
+	}
 }
 
 
