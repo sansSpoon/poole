@@ -9,7 +9,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: rgba(229, 224, 224, 1);
 	background: none;
-	text-shadow: 0 -.1em .2em black;
+	text-shadow: 0 .1em .2em black;
 	/*font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;*/
 	font-family: "OCRA", Menlo, Monaco, "Courier New", monospace;
 	font-size: .85rem;
