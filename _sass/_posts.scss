@@ -17,6 +17,13 @@
 .post-title,
 .post-title a {
   color: $x11Grey;
+  
+  &:hover,
+  &:focus {
+	color: lighten($x11Grey, 50%);
+    text-decoration: none;
+    text-shadow: 0px 0px 2px white
+  }
 }
 .page-title,
 .post-title {
