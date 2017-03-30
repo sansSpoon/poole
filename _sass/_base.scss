@@ -35,11 +35,14 @@ body {
 a {
   color: $link-color;
   text-decoration: none;
+  transition: color 1s ease, text-shaddow 3s ease;
+  
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+	color: $wpOrange;
+    text-decoration: none;
   }
 
   strong {
