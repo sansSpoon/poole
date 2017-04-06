@@ -140,3 +140,51 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+// Tag cloud
+.tag-cloud {
+	//max-width: 600px;
+	
+	li {
+		display: inline-block;
+		margin-right: 0.5rem;
+		margin-bottom: 0.5rem;
+		border-radius: 5px;
+		background: $wpOrange;
+		transform: skew(-20deg);
+		transition: background 0.2s;
+		
+		&:hover, &:focus {
+			background: lighten($wpOrange, 10%);
+			text-decoration: none;
+			box-shadow: 0px 0px 2px white
+		}
+		
+		a {
+		display: block;
+		padding: 0.125em 0.5em;
+		border-radius: 0.25em;
+		transform: skew(20deg);
+		color: white;
+		font-size: 0.8rem;
+		text-decoration: none;
+		}
+	}
+}
+
+.return {
+	display: none;
+	
+	a {
+		font-size: 0.8rem;
+		text-decoration: none;
+		color: $wpOrange;
+	}
+	a:before {
+		content: '\25b2\00a0';
+	}
+
+}
+h2:target + .taglist .return {
+	display: block;
+}
