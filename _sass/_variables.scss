@@ -4,7 +4,7 @@ $taupe: rgba(66, 57, 49, 1);
 $nickle: rgba(122, 116, 97, 1);
 $x11Grey: rgba(193, 189, 189, 1);
 $platinum: rgba(229, 224, 224, 1);
-$desertSand: rgba(231, 201, 183, 1);
+$desertSand: rgba(231, 201, 183, 1); //link-color
 
 $gray-1: #f9f9f9;
 $gray-2: #ccc;
@@ -27,7 +27,7 @@ $root-line-height: 1.5;
 
 $body-color: $platinum;
 $body-bg: $taupe;
-$link-color: $desertSand;
+$link-color: lighten($wpOrange, 30%); //$desertSand;
 
 $border-color: #e5e5e5;
 
@@ -41,4 +41,3 @@ $body-text: "CaeciliaRoman", "Georgia", serif;
 $display-text: "EurostileExtTwo", $root-font-family;
 $j-text: "Mplus2c", $root-font-family;
 $mono-text: "OCRA", $code-font-family;
-
