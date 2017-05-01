@@ -15,6 +15,7 @@ _dev
 *.swo
 *.swp
 *.zip
+*.gz
 *.vi
 *~
 
@@ -42,3 +43,5 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+log/*.log
+log/*.log.[0-9]
