@@ -78,10 +78,10 @@ pre[class*="language-"] {
 	font-family: "OCRA", Menlo, Monaco, "Courier New", monospace;
 	font-size: .85rem;
 	background: rgba(51, 44, 38, 1);
-	padding: .15em .2em .05em;
-	border-radius: .3em;
+	padding: .2em .2em;
+	/*border-radius: .3em;*/
 	/*border: .13em solid hsl(30, 20%, 40%);*/
-	box-shadow: 1px 1px .3em -.1em black inset;
+	/*box-shadow: 1px 1px .3em -.1em black inset;*/
 	white-space: normal;
 }
 
