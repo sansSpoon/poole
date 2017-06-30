@@ -4,28 +4,35 @@
 
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5rem;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	line-height: 1.25;
 	color: $x11Grey;
 	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1, "liga" 1, "dlig" 1, "swsh" 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
-	font-family: $display-text;
-	text-transform: uppercase;
+	font-family: "EurostileExtTwo", $root-font-family;
 	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
+	font-family: "EurostileExtTwo", $root-font-family;
+	font-size: 1.25rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 1rem;
 }
 
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+	font-family: "CaeciliaHeavy", "Georgia", serif;
+	font-size: 1.1rem;
+	/*font-weight: 800;*/
+	margin-top: 1.5rem;
 }
 
 h4, h5, h6 {
@@ -37,19 +44,40 @@ p {
 	font-family: $body-text;
 	margin-top: 0;
 	margin-bottom: 1rem;
+	text-rendering: optimizeLegibility;
 	font-feature-settings: "kern" 1, "liga" 1, "dlig" 1, "swsh" 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	
+	&::selection {
+		background: $link-highlight; /* WebKit/Blink Browsers */
+	}
+	
+	&::-moz-selection {
+		background: $link-highlight; /* Gecko Browsers */
+	}
 }
 
 strong {
-  color: #303030;
+	font-family: "CaeciliaRoman", "Georgia", serif;
+	color: lighten($platinum, 20%);
+	font-weight: 400;
+}
+
+em {
+	font-family: "CaeciliaLightItalic", "Georgia", serif;
+	/*color: lighten($platinum, 30%);*/
+	font-style: italic;
 }
 
 ul, ol, dl {
 	font-family: $body-text;
 	margin-top: 0;
 	margin-bottom: 1rem;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1, "liga" 1, "dlig" 1, "swsh" 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 dt {
@@ -82,6 +110,11 @@ abbr {
     cursor: help;
     border-bottom: 1px dotted #e5e5e5;
   }
+}
+
+code {
+	text-rendering: geometricPrecision;
+	font-feature-settings: "kern" 1, "liga" 0, "dlig" 0, "swsh" 0;
 }
 
 blockquote {
